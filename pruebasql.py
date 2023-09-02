@@ -12,3 +12,8 @@ respuesta = cursor.execute("select * from artists where artistid=1;")
 resultado = respuesta.fetchall()
 
 print(resultado)
+
+respuesta = cursor.execute("select * from employees where employeeid=8;")
+resultado = respuesta.fetchall()
+
+print(resultado)
