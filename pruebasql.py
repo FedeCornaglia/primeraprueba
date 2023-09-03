@@ -17,3 +17,8 @@ respuesta = cursor.execute("select * from employees where employeeid=8;")
 resultado = respuesta.fetchall()
 
 print(resultado)
+
+respuesta = cursor.execute("select firstname from customers where firstname='Luis';")
+resultado = respuesta.fetchall()
+
+print(resultado)
