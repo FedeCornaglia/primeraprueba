@@ -8,12 +8,7 @@ resultado = respuesta.fetchall()
 
 print(resultado)
 
-respuesta = cursor.execute("select * from artists where artistid=1;")
-resultado = respuesta.fetchall()
-
-print(resultado)
-
-respuesta = cursor.execute("select * from employees where employeeid=8;")
+respuesta = cursor.execute("select * from artists where artistid=10;")
 resultado = respuesta.fetchall()
 
 print(resultado)
@@ -21,4 +16,9 @@ print(resultado)
 respuesta = cursor.execute("select firstname from customers where firstname='Luis';")
 resultado = respuesta.fetchall()
 
-print(resultado)
+print(resultado),
+
+respuesta = cursor.execute("select firstname from customers where firstname='Robert';")
+resultado = respuesta.fetchall()
+
+print(resultado),
