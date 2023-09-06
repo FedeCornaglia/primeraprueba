@@ -1,5 +1,6 @@
 function Sumar(a,b){
-    resultado=a+b
+    suma=a+b
+    resultado=suma
 return (<div>
     console.log(suma(a,b))
 
